@@ -127,6 +127,7 @@ scanOS(){
 
 modules=(
     "--with-http_ssl_module"
+    "--with-http_realip_module"
     "--add-module=../modules/nginx-rtmp-module"
     "--add-module=../modules/nginx-client-module"
     "--add-module=../modules/nginx-multiport-module"
